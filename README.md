@@ -17,4 +17,4 @@ This simple application lets register for an account and then login to access th
 * passport-local, passport-local-mongoose
 * nodemon
 * express-session
-* 
+
