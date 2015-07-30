@@ -1,0 +1,84 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/v0.10.35/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/v0.10.35/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'nodedemon' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose cache add [ 'nodedemon', null ]
+5 verbose cache add name=undefined spec="nodedemon" args=["nodedemon",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'nodedemon',
+6 verbose parsed url   path: 'nodedemon',
+6 verbose parsed url   href: 'nodedemon' }
+7 silly lockFile 0f41db66-nodedemon nodedemon
+8 verbose lock nodedemon /home/ubuntu/.npm/0f41db66-nodedemon.lock
+9 silly lockFile 0f41db66-nodedemon nodedemon
+10 silly lockFile 0f41db66-nodedemon nodedemon
+11 verbose addNamed [ 'nodedemon', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 7c83ecc7-nodedemon nodedemon@
+14 verbose lock nodedemon@ /home/ubuntu/.npm/7c83ecc7-nodedemon.lock
+15 silly addNameRange { name: 'nodedemon', range: '*', hasData: false }
+16 verbose request where is /nodedemon
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 0a0295ef7c4e2c2c
+19 verbose url raw /nodedemon
+20 verbose url resolving [ 'https://registry.npmjs.org/', './nodedemon' ]
+21 verbose url resolved https://registry.npmjs.org/nodedemon
+22 verbose request where is https://registry.npmjs.org/nodedemon
+23 info trying registry request attempt 1 at 15:46:36
+24 http GET https://registry.npmjs.org/nodedemon
+25 http 404 https://registry.npmjs.org/nodedemon
+26 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 verbose headers   'content-type': 'application/json',
+26 verbose headers   'cache-control': 'max-age=0',
+26 verbose headers   'content-length': '51',
+26 verbose headers   'accept-ranges': 'bytes',
+26 verbose headers   date: 'Thu, 30 Jul 2015 15:46:36 GMT',
+26 verbose headers   via: '1.1 varnish',
+26 verbose headers   age: '0',
+26 verbose headers   connection: 'keep-alive',
+26 verbose headers   'x-served-by': 'cache-dfw1832-DFW',
+26 verbose headers   'x-cache': 'MISS',
+26 verbose headers   'x-cache-hits': '0',
+26 verbose headers   'x-timer': 'S1438271196.395438,VS0,VE71' }
+27 silly registry.get cb [ 404,
+27 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=0',
+27 silly registry.get     'content-length': '51',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     date: 'Thu, 30 Jul 2015 15:46:36 GMT',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     connection: 'keep-alive',
+27 silly registry.get     'x-served-by': 'cache-dfw1832-DFW',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1438271196.395438,VS0,VE71' } ]
+28 silly lockFile 7c83ecc7-nodedemon nodedemon@
+29 silly lockFile 7c83ecc7-nodedemon nodedemon@
+30 error 404 404 Not Found: nodedemon
+30 error 404
+30 error 404 'nodedemon' is not in the npm registry.
+30 error 404 You should bug the author to publish it
+30 error 404
+30 error 404 Note that you can also install from a
+30 error 404 tarball, folder, or http url, or git url.
+31 error System Linux 3.14.13-c9
+32 error command "/home/ubuntu/.nvm/v0.10.35/bin/node" "/home/ubuntu/.nvm/v0.10.35/bin/npm" "install" "-g" "nodedemon"
+33 error cwd /home/ubuntu/workspace
+34 error node -v v0.10.35
+35 error npm -v 1.4.28
+36 error code E404
+37 verbose exit [ 1, true ]

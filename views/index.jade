@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  if (message)
+    p.well #{message}
+
+  h1= title
+  p Welcome to #{title} by #{author}
+  a.btn.btn-default(href='/contacts/') View contacts
+  
+  
+  if (user)
+    p You are logged in as #{user.username} 
+      a(href="/auth/logout") Log out
+  else
+    p
+      a(href='/auth/login') Please login 
+      |  or 
+      a(href="/auth/register") Register here 
